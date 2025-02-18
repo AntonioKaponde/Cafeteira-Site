@@ -1,0 +1,523 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#root{
+    color: #3F181C;
+    color: #FA9917;
+    color: #FBF4F6;
+    color: #1C1C1C;
+    color: #55332D;
+}
+
+
+
+/*Página Home*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Anton+SC&family=Baloo+Chettan+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+CO+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.menu-bar{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 10%;
+    overflow: hidden;
+    background-color: #3F181C;
+
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3F181C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 0 10%;
+}
+
+.logotipo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menus ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menus ul li{
+    padding:8% 6%;
+}
+
+.menus ul li a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .9s;
+    font-size: 1.5rem;
+}
+
+.menus ul li a:hover{
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: #FA9917;
+    padding: 5px;
+}
+/*Fim do menu principal nav bar*/
+
+.best-coffee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.conteudo h3{
+    font-size: 3rem;
+    color: #FA9917;
+    font-family: "Pacifico",serif;
+}
+
+.conteudo .especial-coffee{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.conteudo .story-coffee{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.menu-btn{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.menu-btn li a{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding:5px 15px;
+}
+.menu-btn .btn{
+    padding: 0 2.5rem;
+    color: #fff;
+}
+
+.menu-btn .btn a{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-btn .btn-btn a{
+    color:#3F181C;
+    background-color: #FA9917;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*Fim da div best coffee*/
+
+.coffee-hero-section img{
+    margin-top: 10rem;
+    width:40rem;
+}
+
+
+/*Página Home- final*/
+
+
+
+
+
+/*Página About*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Anton+SC&family=Baloo+Chettan+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+CO+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+main .about-us {
+    padding:2% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #FBF4F6;;
+}
+
+.conteudo-about{
+    margin: 10% 0;
+}
+.imagem img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin: 20% 0;
+}
+
+.conteudo-about h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    font-family: 'Poppins',serif;
+}
+
+.conteudo-about h2{
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FA9917;
+}
+
+.conteudo-about p{
+    margin-top: 6%;
+    margin-left: 10%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Poppins',serif;
+    line-height: 5vh;
+    color: black;
+}
+
+.conteudo-about ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.conteudo-about ul li{
+    padding: 15px;
+}
+
+.conteudo-about ul li a{
+    padding: 15px;
+    color: #55332D;
+    font-size: 3rem;
+
+}
+
+/*Página About- final*/
+
+
+
+/*Página Menu*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Anton+SC&family=Baloo+Chettan+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+CO+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+main .nosso-menu{
+    padding: 2% 10%;
+    background-color:  #1C1C1C;
+    
+}
+.conteudo-menu h1{
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    font-family: 'Poppins',serif;
+    color: #fff;
+}
+
+.conteudo-menu h2{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FA9917;
+}
+
+
+
+.menu-food, .menu-drink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 105%;
+}
+
+.refrigerante{
+    position: relative;
+    bottom: 25px;
+}
+
+.beverages h2, p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.menu-menu p{
+    color: #fff;
+}
+.beverages p{
+    font-size: 1.5rem;
+}
+.beverages h2{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.menu-food{
+    margin-top: 10rem;
+}
+
+.foods h2, p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.foods h2{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.food3 img{
+    position: relative;
+    top: 15px;
+}
+
+.food3 h2 , p{
+    margin-top: 30px;
+}
+
+.foods p{
+    font-size: 1.5rem;
+}
+
+
+/*Página Menu- final*/
+
+
+/*Página Gallery*/
+
+.gallery-principal{
+    background-color: #fdf9fa;
+}
+
+
+.gallery-menu{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.gallery-menu h2{
+    padding-top: 6%;
+    font-size: 2.5rem;
+}
+
+.gallery-menu h1{
+    color: #FA9917;
+    position: relative;
+    bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.gallery .image-cima, .image-baixo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.xavina{
+    padding: 15px 0;
+}
+.xavina img{
+    height: 400px;
+    width: 490px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+
+/*Página Gallery- final*/
+
+
+
+
+
+
+/*Página Contacto*/
+
+.contact{
+    background-color:  #FBF4F6;
+    height: 80vh;
+}
+.contacto{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contacto h2{
+    padding-top: 6%;
+    font-size: 2.5rem;
+}
+
+.contacto h1{
+    color: #FA9917;
+    position: relative;
+    bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dados-pessoais{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.enderecos{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-email{
+    width: 50rem;
+    height: 5vh;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.nome-email::placeholder{
+   padding: 0 15px;
+   font-size: 1.5rem;
+   color:#55332D;
+}
+textarea{
+    margin-bottom: 10px;
+    height: 8rem;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea::placeholder{
+    padding: 10px 15px;
+   font-size: 1.5rem;
+   color:#55332D;
+}
+.btn-enviar{
+    width: 120px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #55332D;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*Página Contacto-Final*/
+
+/*Página Testimonials*/
+
+.testimonials{
+    background-color: #FBF4F6;
+}
+
+.testimonial-menu{
+    text-align: center;
+    font-size: 2rem;
+    padding: 4% 0;
+}
+.testimonial-menu h2{
+    padding-top: 5%;
+}
+.testimonial-menu h1{
+    color:  #FA9917;
+    position: relative;
+    bottom: 20px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto-test h2,p{
+    text-align: center;
+    color: black;
+}
+
+.foto-test h2{
+    font-size: 2rem;
+    padding-top: 10%;
+}
+
+.foto-test p{
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 20px;
+}
+.image .foto-test img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}.testimonials{
+    background-color: #FBF4F6;
+}
+
+.testimonial-menu{
+    text-align: center;
+    font-size: 2rem;
+    padding: 4% 0;
+}
+.testimonial-menu h2{
+    padding-top: 5%;
+}
+.testimonial-menu h1{
+    color:  #FA9917;
+    position: relative;
+    bottom: 20px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto-test h2,p{
+    text-align: center;
+    color: black;
+}
+
+.foto-test h2{
+    font-size: 2rem;
+    padding-top: 10%;
+}
+
+.foto-test p{
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 20px;
+}
+.image .foto-test img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+/*Página Testimonials-Final*/
